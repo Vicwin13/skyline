@@ -1,0 +1,24 @@
+{
+  "name": "skyline",
+  "version": "1.0.0",
+  "description": "A simple restaurant web page for education purposes only",
+  "main": "index.js",
+  "scripts": {
+    "build-css": "tailwindcss build src/styles.css -o public/style.css",
+    "watch": "tailwindcss build src/styles.css -o public/style.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vicwin13/skyline.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Vicwin13/skyline/issues"
+  },
+  "homepage": "https://github.com/Vicwin13/skyline#readme",
+  "dependencies": {
+    "tailwindcss": "^3.2.1"
+  }
+}
